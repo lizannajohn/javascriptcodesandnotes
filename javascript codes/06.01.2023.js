@@ -20,3 +20,25 @@ console.log(el1.innerHTML);
 el1.innerHTML = "DOM Manipulation: Using JS"
 // innerText returns only the text
 // textContent: to return text along with any formatting
+
+// Creating elements
+let div = document.createElement('div')
+// undefined
+// div
+// <div>​</div>​
+
+let elem = document.createElement('span')
+// undefined
+// elem
+// <span>​</span>​
+
+elem.innerHTML = 'added using JS'
+// 'added using JS'
+// elem
+// <span>​added using JS​</span>​
+div.innerHTML = 'dynamically'
+// 'dynamically'
+// div
+// <div>​dynamically​</div>​
+
+document.body.append(div)
