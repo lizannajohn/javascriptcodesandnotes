@@ -1,0 +1,118 @@
+03.01.2023, Tuesday
+
+
+04.01.2023, Wednesday
+
+1. Variables and Operators
+
+var:
+    keyword to define a variable, it doesn't define a specific datatype.
+    can be redeclared and reinitialized
+
+let:
+    can be re-initialized but not redeclared.
+    the datatype cannot be changed by changing the value once declared.
+
+const:
+    for a variable to be a constant value.
+    it always has to have value/should be initialized.
+    cannot be redeclared and reinitialized.
+
+scope: an area where the variable is accessible.
+
+    e.g.
+    n3 has a block scope, so it cannot be accessed outside of the current block.
+
+    function abc()
+    {
+        if(100 == 100)
+        {
+            var n3 = 10;
+        }
+
+        console.log(n3);
+    }
+
+typeof: returns the datatype of the variable
+    let a = "Liz"
+    let b;
+    console.log(typeof(a));
+    console.log(typeof(b));
+
+    output:
+    String
+    undefined
+
+Operators:
+    Arithmetic
+    = -> assignment operator
+    == -> comparison/equality operator
+    === -> strict comparison operator -> checking both type and value
+
+
+    Logical
+    && - and - if both cases are true then generates true.
+    || - or - if either of the cases is true, gives true.
+    ! - not - negates the current condition.
+
+
+    Relational
+    > < >= <= == === != !==
+
+2. Conditionals
+if... if else... else...
+switch
+
+3. Loops and Break Statements
+for, while and do...while loop
+
+break and continue
+
+05.01.2023, Thursday
+
+1. Type Conversion and Cohersion
+    Cohersion: When JS does automatic conversions of datatypes
+    Conversion:
+        Forcefully converting
+        Explicit typecasting of values
+
+2. Intro to Functions
+    function <name of function> (parameters)
+
+3. Intro to Arrays
+    let marks = [90, "abc", 55, 78, true]
+
+4. Objects
+    An entity with certain properties
+
+06.01.2023, Friday
+DOM: Document Object Model
+    Used to modify/manipulate web page
+    Not directly a part of JS
+    DOM is used with JS
+    Browser provided functionality
+    Representation of HTML elements in a tree like model
+
+html
+-> head
+    -> title
+-> body
+    -> h3
+    -> ol
+        -> li
+-> script
+
+Document -> is an object
+{
+    containing properties
+    prop1:
+    prop2:
+    prop3:
+    {
+
+    }
+    methods
+    method1: func1
+    method2: func2
+
+}
