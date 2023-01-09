@@ -32,13 +32,15 @@ let elem = document.createElement('span')
 // elem
 // <span>​</span>​
 
-elem.innerHTML = 'added using JS'
+elem.innerHTML = ' added using JS'
 // 'added using JS'
 // elem
 // <span>​added using JS​</span>​
-div.innerHTML = 'dynamically'
+
+div.innerHTML = 'Dynamically'
 // 'dynamically'
 // div
 // <div>​dynamically​</div>​
 
 document.body.append(div)
+div.append(elem)
