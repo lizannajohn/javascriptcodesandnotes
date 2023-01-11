@@ -116,3 +116,32 @@ Document -> is an object
     method2: func2
 
 }
+
+09.01.2023, Monday
+DOM (continued)
+
+10.01.2023, Tuesday
+Functions
+    Types of Functions
+
+Arrays and Spread Operator
+
+REST Operator
+
+Scope and Hoisting
+    Scope: *already discussed on 04.01.2023*
+
+    Hoisting:
+    var is a global variable
+    regardless of where it is declared, it is always moved to the top as a global variable
+    this only happens with var
+
+11.01.2023, Wednesday
+IIFE: Immediately Invoked Function Expression
+
+Try, Catch and Finally
+    Why try catch?
+
+    When to use it?
+
+Arrays
