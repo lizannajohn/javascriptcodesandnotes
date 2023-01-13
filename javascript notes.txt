@@ -148,3 +148,8 @@ Arrays
 
 12.01.2023, Thursday
 Higher Order
+
+13.01.2023
+ Object: everything within in a object is of string datatype
+
+ for-in returns indexes
