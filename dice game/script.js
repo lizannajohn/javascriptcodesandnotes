@@ -1,6 +1,7 @@
 let playerName = document.querySelectorAll("input")
 let btns = document.getElementsByClassName("diceRollBtn")
 let scores = document.getElementsByTagName("span")
+let winnerBtn = document.getElementById("winner")+
 
 for(let i = 0; i <= btns.length - 1; i++)
 {
@@ -17,6 +18,6 @@ function rollDice(btn_id)
     scores[btn_id].innerText = randomValue
 }
 
-let winnerBtn = document.getElementById("winner")
+
 
 // winnerBtn.addEventListener("click", () => {declareWinner})

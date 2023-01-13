@@ -145,3 +145,6 @@ Try, Catch and Finally
     When to use it?
 
 Arrays
+
+12.01.2023, Thursday
+Higher Order
