@@ -3,10 +3,10 @@
     return(a + b)
 })(10,20)
 
-(function(a, b)
-{
-    return(a + b)
-})(10,20)
+// (function(a, b)
+// {
+//     return(a + b)
+// })(10,20)
 
 // let and const
 const c = 10
@@ -83,7 +83,7 @@ let obj =
 }
 
 let {name:a, address:b, age:g} = obj
-console.log(a, b, d);
+console.log(a, b, g);
 
 // Array Iterators
 // datatype of array is object
@@ -107,3 +107,5 @@ for(let x of voters)
     console.log(x.name)
   }
 }
+
+// console.log(voters);

@@ -2,7 +2,7 @@ console.log("hello");
 
 let a = 10
 let b = '20'
-// JavaScript does some conversion: cohersion -> converted number to string
+// JavaScript does some conversion: coercion -> converted number to string
 console.log(a+b); //output is 1020 -> concat
 console.log(typeof(a+b)); //string
 console.log(a + Number(b)); //o/p is 30 -> '20' is explicitly typecasted as a number

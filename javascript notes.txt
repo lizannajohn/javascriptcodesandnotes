@@ -71,7 +71,7 @@ break and continue
 05.01.2023, Thursday
 
 1. Type Conversion and Cohersion
-    Cohersion: When JS does automatic conversions of datatypes
+    Coercion: When JS does automatic conversions of datatypes
     Conversion:
         Forcefully converting
         Explicit typecasting of values
@@ -149,7 +149,36 @@ Arrays
 12.01.2023, Thursday
 Higher Order
 
-13.01.2023
+13.01.2023, Friday
  Object: everything within in a object is of string datatype
 
  for-in returns indexes
+
+14.01.2023, Saturday: Contest
+
+16.01.2023, Monday
+Strings
+Closures
+
+17.01.2023, Tuesday
+Objects
+
+18.01.2023, Wednesday
+Assignment Question and Contest Question
+
+19.01.2023, Thursday
+Closures
+
+20.01.2023, Friday
+No class
+
+21.01.2023, Saturday: Contest
+
+23.01.2023, Monday
+BigInt, Symbols and Datatypes
+
+24.01.2023, Tuesday
+Contest Discussion, JSON
+
+25.01.2023, Wednesday
+This Keyword
